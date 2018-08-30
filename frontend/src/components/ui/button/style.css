@@ -1,0 +1,158 @@
+/* Filled button */
+.defaultButton {
+  height: 44px;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  font: 14px 'EquipMedium', monospace, sans-serif;
+  color: #fff;
+  border-radius: 8px;
+  background-color: #1998d5;
+  padding: 0 25px;
+  transition: background-color .2s;
+  width: fit-content;
+}
+
+.defaultButton:focus {
+  outline: none;
+}
+
+.defaultButton:hover {
+  background-color: #1688BF;
+}
+
+.defaultButton.blurButton {
+  width: 120px;
+  height: 32px;
+  background-color: rgba(255, 255, 255, 0.35);
+}
+
+.defaultButton.disabled {
+  background-color: rgba(25, 152, 213, 0.35);
+  cursor: not-allowed;
+}
+
+.defaultButton.disabled:hover {
+  background-color: rgba(25, 152, 213, 0.35);
+}
+
+/* Transparent button */
+.defaultButton.stroked {
+  background-color: transparent;
+  border: 2px solid #1998d5;
+  color: #1998d5;
+}
+
+.defaultButton.stroked.disabled {
+  background-color: transparent;
+  border-color: rgba(25, 152, 213, 0.35);
+  color: rgba(25, 152, 213, 0.35);
+}
+
+.defaultButton.stroked.disabled:hover {
+  background-color: transparent;
+}
+
+.greenButton {
+  background-color: #40a142;
+}
+
+.greenButton:hover {
+  background-color: #398d3b;
+}
+
+.greenButton.stroked {
+  background-color: transparent;
+  border: 2px solid #40a142;
+  color: #40a142;
+}
+
+.greenButton.stroked.disabled {
+  background-color: transparent;
+  border-color: #40a14250;
+  color: #40a14250;
+}
+
+.greenButton.stroked.disabled:hover {
+  background-color: transparent;
+}
+
+.greyButton {
+  background-color: #bdbebd;
+}
+
+.greyButton:hover {
+  background-color: #a0a1a0;
+}
+
+.greyButton.stroked {
+  background-color: transparent;
+  border: 2px solid #bdbebd;
+  color: #bdbebd;
+}
+
+.greyButton.stroked.disabled {
+  background-color: transparent;
+  border-color: #bdbebd65;
+  color: #bdbebd65;
+}
+
+.greyButton.stroked.disabled:hover {
+  background-color: transparent;
+}
+
+.yellowButton {
+  background-color: #fdd835;
+}
+
+.yellowButton:hover {
+  background-color: #f5dd73;
+}
+
+.yellowButton.stroked {
+  background-color: transparent;
+  border: 2px solid #fdd835;
+  color: #fdd835;
+}
+
+.yellowButton.stroked.disabled {
+  background-color: transparent;
+  border-color: #f5dd73;
+  color: #f5dd73;
+}
+
+.yellowButton.stroked.disabled:hover {
+  background-color: transparent;
+}
+
+.redButton {
+  background-color: #e7372d;
+}
+
+.redButton:hover {
+  background-color: #f05c54;
+}
+
+.redButton.disabled {
+  background-color: #f77b75;
+  cursor: not-allowed;
+}
+
+.redButton.stroked {
+  background-color: transparent;
+  border: 2px solid #e7372d;
+  color: #e7372d;
+}
+
+.redButton.stroked.disabled {
+  background-color: transparent;
+  border-color: #f77b75;
+  color: #f77b75;
+}
+
+.defaultButton.disabled:hover {
+  background-color: #f77b75;
+}
+
+.redButton.stroked.disabled:hover {
+  background-color: transparent;
+}
