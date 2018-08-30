@@ -1,6 +1,6 @@
 # Okta oAuth2 Go Authorization App
 
-##Setup
+## Setup
 
 In order for the Okta Authentication to work, you'll need developer credentials which the this application gathers from a file in the root directory called `secrets.json`
 
