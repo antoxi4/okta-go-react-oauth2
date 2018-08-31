@@ -98,5 +98,5 @@ func DeleteSession(c *gin.Context) {
 	session.Clear()
 	session.Save()
 
-	c.JSON(http.StatusOK, gin.H{})
+	c.JSON(http.StatusNoContent, gin.H{})
 }

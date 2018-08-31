@@ -30,9 +30,9 @@ func main() {
 		MaxAge: 12 * time.Hour,
 	}))
 	
-	r.GET("/session", handlers.GetUser)
 	r.GET("/login", handlers.GetAuthURL)
-	r.GET("/logout", handlers.DeleteSession)
+	r.GET("/session", handlers.GetUser)
+	r.DELETE("/session", handlers.DeleteSession)
 	r.GET("/authorization-code/callback", handlers.AuthCallback)
 
 	r.Run("127.0.0.1:8081")
