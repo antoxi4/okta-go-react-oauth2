@@ -9,6 +9,6 @@ export namespace AuthService {
   }
 
   export const deleteAuthorizationSession = (): Promise<any> => {
-    return fetch('http://localhost:8081/logout', { credentials: 'include' })
+    return fetch('http://localhost:8081/logout', { method: 'DELETE', credentials: 'include' })
   }
 }
