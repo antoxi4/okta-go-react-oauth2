@@ -1,4 +1,4 @@
-# Okta oAuth2 Go Authorization App
+# Okta oAuth Go Authorization App
 
 ## Setup
 
