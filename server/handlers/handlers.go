@@ -89,7 +89,6 @@ func AuthCallback(c *gin.Context) {
 	session.Save()
 
 	c.Redirect(http.StatusTemporaryRedirect, "http://localhost:3000/signin")
-	// c.JSON(http.StatusOK, gin.H{"token": token.AccessToken})
 }
 
 func DeleteSession(c *gin.Context) {
